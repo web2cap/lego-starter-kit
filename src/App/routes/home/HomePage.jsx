@@ -35,10 +35,10 @@ export default class HomePage extends Component {
                   <CardTitle>
                     Добро пожаловать
                   </CardTitle>
-                  Это пример, как можно использовать HELLO!
+                  Это тестовый проект web2cap!
                 </CardBlock>
                 <CardFooter className="text-xs-center">
-                  <A href="https://github.com/isuvorov/lego-starter-kit">
+                  <A href="https://github.com/web2cap/lego-starter-kit/">
                     Подробнее
                   </A>
                 </CardFooter>
