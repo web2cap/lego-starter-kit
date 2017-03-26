@@ -20,8 +20,10 @@ export default class HomePage extends Component {
                   <CardTitle>Категории</CardTitle>
                   <Nav bsStyle="pills" stacked activeKey={1}>
                     <NavItem eventKey={1}>NavItem 1 content</NavItem>
+                    {/*
                     <NavItem eventKey={2}>NavItem 2 content</NavItem>
                     <NavItem eventKey={3}>NavItem 3 content</NavItem>
+                    */}
                   </Nav>
                 </CardBlock>
               </Card>

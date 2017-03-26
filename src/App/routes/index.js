@@ -40,7 +40,7 @@ export default {
       };
     }
     if (!route) route = {};
-    route.title = `${route.title || 'Untitled Page'} - ${config.siteTitle}`;
+    route.title = `${route.title || 'web2cap Ex2'} - ${config.siteTitle}`;
     route.description = route.description || config.siteTitle;
     return route;
   },
