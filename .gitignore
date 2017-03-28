@@ -6,4 +6,9 @@ database.sqlite
 node_modules
 ncp-debug.log
 npm-debug.log
+<<<<<<< .merge_file_nnzoo9
+=======
+.idea
+jsconfig.json
+>>>>>>> .merge_file_Dtqzgp
 .env

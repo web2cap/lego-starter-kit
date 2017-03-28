@@ -9,7 +9,11 @@ export default config.server(baseConfig, {
 
   protocol: 'https',
   db: {
+<<<<<<< .merge_file_GtvKsL
     uri: process.env.DB || 'mongodb://lsk-example1:lsk-example1-pass@publicdb.mgbeta.ru:27000/lsk-example1',
+=======
+    uri: 'mongodb://publicdb.mgbeta.ru:27000/lsk-master',
+>>>>>>> .merge_file_TnSUL2
   },
   jwt: {
     secret: 'JvtPass_beta_gamma',

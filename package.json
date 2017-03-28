@@ -1,4 +1,5 @@
 {
+<<<<<<< .merge_file_ky2dUp
   "name": "lsk-example1",
   "version": "1.0.0",
   "author": "isuvorov",
@@ -31,6 +32,41 @@
     "react-toastr": "^2.8.2",
     "reactstrap": "^4.0.1",
     "socket.io-as-promised": "^1.0.0"
+=======
+  "name": "lego-starter-kit",
+  "version": "1.4.9",
+  "description": "Lego Starter Kit — Node.js & React isomorphic app creator (Node.js, Express, React.js, Babel, PostCSS, Webpack)",
+  "dependencies": {
+    "babel-polyfill": "6.22.0",
+    "babel-runtime": "6.22.0",
+    "bcryptjs": "2.4.0",
+    "bluebird": "3.4.7",
+    "body-parser": "1.16.0",
+    "bunyan": "1.8.5",
+    "connect-static-file": "1.1.2",
+    "cookie-parser": "1.4.3",
+    "core-decorators": "0.15.0",
+    "cors": "2.8.1",
+    "express": "4.14.1",
+    "express-jwt": "5.1.0",
+    "fastclick": "1.0.6",
+    "history": "4.5.1",
+    "importcss": "1.0.3",
+    "jsonwebtoken": "7.2.1",
+    "lodash": "4.17.4",
+    "moment": "2.17.1",
+    "mongoose": "4.8.1",
+    "node-fetch": "1.6.3",
+    "nodemailer": "2.5.0",
+    "react": "15.4.2",
+    "react-deep-force-update": "2.0.1",
+    "react-dom": "15.4.2",
+    "socket.io": "1.7.2",
+    "socket.io-as-promised": "^1.0.0",
+    "universal-router": "2.0.0",
+    "uuid": "3.0.1",
+    "whatwg-fetch": "2.0.2"
+>>>>>>> .merge_file_5L2Tsm
   },
   "devDependencies": {
     "@kadira/storybook": "^2.35.2",
@@ -65,12 +101,20 @@
     "glob-loader": "^0.3.0",
     "json-loader": "0.5.4",
     "jsx-control-statements": "3.1.2",
+<<<<<<< .merge_file_ky2dUp
     "lsk-build": "0.6.3",
     "node-fetch": "^1.6.3",
     "node-sass": "^4.5.0",
+=======
+    "lsk-build": "0.6.1",
+>>>>>>> .merge_file_5L2Tsm
     "postcss-loader": "1.2.2",
     "react-hot-loader": "3.0.0-beta.6",
+<<<<<<< .merge_file_ky2dUp
     "sass-loader": "^4.1.1",
+=======
+    "redbox-react": "1.3.3",
+>>>>>>> .merge_file_5L2Tsm
     "webpack": "1.13.2",
     "webpack-hot-middleware": "2.15.0",
     "webpack-middleware": "1.5.1"
@@ -84,7 +128,15 @@
     "webpack-stats": "webpack --env production --profile --json > webpack.stats.json",
     "render": "babel-node tools/run render",
     "start": "node build/server.js",
+<<<<<<< .merge_file_ky2dUp
     "dev": "babel-node tools/run start | node node_modules/lego-starter-kit/src/utils/bunyan -o short -l trace",
     "storybook": "start-storybook -p 9001"
+=======
+    "release": "npm publish",
+    "dev": "babel-node tools/run start  | node ./src/utils/bunyan -o short -l trace",
+    "storybook": "start-storybook -p 9001",
+    "babel-build": "rimraf lib && babel src --out-dir lib --source-maps inline --copy-files && cp {package.json,README.md} lib/",
+    "deploy": "npm run babel-build && npm publish lib"
+>>>>>>> .merge_file_5L2Tsm
   }
 }
